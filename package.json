@@ -1,0 +1,17 @@
+{
+  "name": "youtube-mp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts53": "tsnd --respawn ts53.ts"
+  },
+  "keywords": [],
+  "author": "Mario Lazzari",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  }
+}
