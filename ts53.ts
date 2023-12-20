@@ -1,4 +1,4 @@
-// TypeScript 5.3
+// TypeScript 5.3: https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/
 // import testJson from "./assets/test.json"  with { type: "json" };
 
 // switch true narrowing
@@ -37,5 +37,7 @@ function getCurrentPoint() {
   return point;
 }
 
-const currP: Point = getCurrentPoint();
+const currP = getCurrentPoint();
 console.log("Current point:", currP);
+
+console.log("first", currP);

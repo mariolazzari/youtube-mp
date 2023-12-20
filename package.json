@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "infer": "tsnd --respawn infer.ts",
     "ts53": "tsnd --respawn ts53.ts"
   },
   "keywords": [],
